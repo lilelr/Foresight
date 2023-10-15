@@ -1,0 +1,1815 @@
+q1
+a b c 1
+a b f d c 1
+a b c 1
+a b f d c 1
+a b f d c 1
+a b l g h 1
+c f e l e b l g h 2
+c f e l e e l e b g h 2
+h f c 3
+c f l g h 2
+h f p
+q2
+a b f j 
+a b f j 
+a b d c 
+a b f d c 
+a b f j 
+a b f j 
+a b d c 
+a b f d c 
+j c 
+c f e l e c 
+c f g h 
+j c 
+c f e l e c 
+c f l g h 
+h f s g g
+q3
+a b f d c 
+a b c 
+a b f d c 
+c f c 
+c f e l e p
+q4
+a b l g h 
+a b l g h 
+a b d c 
+a b l g h 
+a b l g h 
+a b d c 
+a b l g h 
+a b l g h 
+a b d c 
+a b l g h 
+a b l g h 
+a b d c 
+a b l g h 
+a b l g h 
+a b d c 
+a b l g h 
+a b l g h 
+a b d c 
+h f c 
+c f e l e b l g h 
+h f c 
+c f e l e l g h 
+h f c 
+c f e l e b l g h 
+h f c 
+c f e l e l g h 
+h f c 
+c f e l e b l g h 
+h f c 
+c f e l e l g h 
+h h 
+h f h 
+h f h 
+h f h 
+h f p
+q5
+a b f j 
+a b f j 
+a b f d c 
+a b d c 
+a b f j 
+a b f j 
+a b f d c 
+a b d c 
+a b f j 
+a b l g h 
+a b l g h 
+a b f d c 
+a b d c 
+j c 
+c f c 
+c f e l e j k e l e p
+q6
+a b d c 
+a b c 
+a b l g h 
+a b f e l e r i b f d c 
+a b f d c 
+a b c 
+a b e l e b d c 
+c f l g h 
+h f c 
+c f l g h 
+c f l g h 
+h f e l e b p
+q7
+a b c 
+a b f d c 
+a b f d c 
+a b d c 
+a b f d c 
+c f c 
+c f c 
+c f c 
+c f e l e p
+q8
+a b c 
+a b f d c 
+a b d c 
+a b l g h 
+a b d c 
+a b f c 
+c f c 
+c f c 
+c f e l e b f l g h 
+h f e l e d c 
+c f e l e p
+q10
+a b l g h 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+a b d c 
+c f l g h 
+c f l g h 
+c f l g h 
+h h 
+h h 
+h b f c 
+c f c 
+c f e l e p
+q11
+a b l g h 
+a b l g h 
+a b d c 
+a b l g h 
+a b l g h 
+a b d c 
+a b l g h 
+a b l g h 
+a b d c 
+a b l g h 
+a b l g h 
+a b d c 
+h f c 
+c f e l e b l g h 
+h f c 
+c f e l e l g h 
+h f c 
+c f e l e b l g h 
+h f c 
+c f e l e l g h 
+h h 
+h f h 
+h f p
+q12
+a b c 
+a b d c 
+a b f d c 
+c f c 
+c f e l e l g r f p
+q13
+a b c 
+a b d c 
+a b f d c 
+a b f d c 
+a b d c 
+a b d c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f e m e r
+q14a
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b l g h 
+a b d c 
+a b c 
+a b l g h 
+a b c 
+a b d c 
+a b f d c 
+a b f d c 
+a b c 
+a b d c 
+a b f d c 
+a b l g h 
+a b d c 
+a b c 
+a b l g h 
+a b c 
+a b d c 
+a b f d c 
+a b f d c 
+a b c 
+a b d c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b l g h 
+a b d c 
+a b c 
+a b l g h 
+a b c 
+a b d c 
+a b f d c 
+a b f d c 
+a b c 
+a b d c 
+a b f d c 
+a b l g h 
+a b d c 
+a b c 
+a b l g h 
+a b c 
+a b d c 
+a b f d c 
+a b f d c 
+a b c 
+a b d c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b l g h 
+a b d c 
+a b c 
+a b l g h 
+a b c 
+a b d c 
+a b f d c 
+a b f d c 
+a b c 
+a b d c 
+a b f d c 
+a b l g h 
+a b d c 
+a b c 
+a b l g h 
+a b c 
+a b d c 
+a b f d c 
+a b f d c 
+a b c 
+a b d c 
+a b f d c 
+a b f d c 
+c f j e m e r i b f j k e l e p
+q15
+a b c 
+a b d c 
+a b d c 
+a b f d c 
+c f c 
+c f c 
+c f e l e p
+q16
+a b l g h 
+a l g h 
+a l g h 
+a b f d c 
+a b f d c 
+a b f d c 
+h f h 
+h c 
+c f c 
+c f c 
+c f e e e m e r
+q17
+a b l g h 
+a b l g h 
+a b l g h 
+a b f d c 
+a b f d c 
+a b f d c 
+a b d c 
+a b d c 
+h f l g h 
+h f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f e l e p
+q18
+a b c 
+a b f d c 
+a b f l g h 
+a b d c 
+a b d c 
+a b f d c 
+a b d c 
+c f l g h 
+h f c 
+c f c 
+c f c 
+c f c 
+c f k e l e p
+q19
+a b f d c 
+a b c 
+a b f d c 
+a b d c 
+a b d c 
+a b d c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f e l e p
+q20
+a b c 
+a b d c 
+a b f d c 
+c f c 
+c f e l e l g r f p
+q21
+a b c 
+a b d c 
+a b f d c 
+a b d c 
+c f c 
+c f c 
+c f e l e b p
+q22
+a b c 
+a b f d c 
+a b d c 
+a b d c 
+c f c 
+c f c 
+c f k e l e p
+q23a
+a b l g h 
+a b c 
+a b f d c 
+a b d c 
+a b c 
+a b d c 
+a b f d c 
+a b c 
+a b d c 
+a b f d c 
+a b l g h 
+a b c 
+a b f d c 
+a b d c 
+a b c 
+a b d c 
+a b f d c 
+a b c 
+a b d c 
+a b f d c 
+c f c 
+c f e l e b f l g h 
+c f c 
+c f e l e e m e r i b f g h 
+c f e l e b f g h 
+c f c 
+c f e l e b f l g h 
+c f c 
+c f e l e e m e r i b f g h 
+c f e l e b f g h 
+h f l g h 
+h f c 
+c f j e m e r
+q24a
+a b l g h 
+a b l g h 
+a b f d c 
+a b d c 
+a b l g h 
+a b d c 
+a b l g h 
+a b l g h 
+a b f d c 
+a b d c 
+a b l g h 
+a b d c 
+h f c 
+c f c 
+c f l g h 
+h f c 
+c f e l e e m e r i b r
+q25
+a b l g h 
+a b l g h 
+a b l g h 
+a b f d c 
+a b f d c 
+a b f d c 
+a b d c 
+a b d c 
+h f l g h 
+h f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f e l e p
+q26
+a b c 
+a b f d c 
+a b f d c 
+a b d c 
+a b f d c 
+c f c 
+c f c 
+c f c 
+c f e l e p
+q27
+a b c 
+a b f d c 
+a b f d c 
+a b d c 
+a b d c 
+c f c 
+c f c 
+c f c 
+c f k e l e p
+q29
+a b l g h 
+a b l g h 
+a b l g h 
+a b f d c 
+a b f d c 
+a b f d c 
+a b d c 
+a b d c 
+h f l g h 
+h f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f e l e p
+q30
+a b c 
+a b f d c 
+a b d c 
+a b c 
+a b f d c 
+a b d c 
+a b l g h 
+a b f d c 
+c f c 
+c f e l e b l g h 
+c f c 
+c f e l e e l e b g h 
+h f l g h 
+h f c 
+c f p
+q31
+a b c 
+a b d c 
+a b d c 
+a b c 
+a b d c 
+a b d c 
+a b c 
+a b d c 
+a b d c 
+a b c 
+a b d c 
+a b d c 
+a b c 
+a b d c 
+a b d c 
+a b c 
+a b d c 
+a b d c 
+c f c 
+c f e l e l g h 
+c f c 
+c f e l e l g h 
+c f c 
+c f e l e l g h 
+c f c 
+c f e l e l g h 
+c f c 
+c f e l e l g h 
+c f c 
+c f e l e l g h 
+h h 
+h f h 
+h h 
+h f h 
+h f s g g
+q32
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+c f l g h 
+c f e l e b g h 
+h f c 
+c f e m e r
+q33
+a b c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+c f c 
+c f c 
+c d c 
+c f c 
+c f c 
+c d c 
+c f c 
+c f c 
+c d c 
+c f e l e j e l e p
+q34
+a b c 
+a b f d c 
+a b f d c 
+a b f d c 
+a b l g h 
+c f c 
+c f c 
+c f e l e b l g h 
+h f s g g
+q35
+a b l g h 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b d c 
+a b d c 
+c f l g h 
+c f l g h 
+c f l g h 
+h h 
+h h 
+h b f c 
+c f c 
+c f e l e p
+q36
+a b c 
+a b f d c 
+a b d c 
+a b f d c 
+c f c 
+c f c 
+c f k e l e l g r f p
+q37
+a b f d c 
+a b f c 
+a b f d c 
+a b l g h 
+c f c 
+c f l g h 
+h f e l e p
+q38
+a b c 
+a b f d c 
+a b l g h 
+a b c 
+a b f d c 
+a b l g h 
+a b c 
+a b f d c 
+a b l g h 
+c f l g h 
+h f e l e l g h 
+c f l g h 
+h f e l e l g h 
+c f l g h 
+h f e l e l g h 
+h h 
+h f e m e r
+q39a
+a b c 
+a b d c 
+a b d c 
+a b f d c 
+a b c 
+a b d c 
+a b d c 
+a b f d c 
+c f c 
+c f c 
+c f e l e b f l g h 
+c f c 
+c f c 
+c f e l e b f l g h 
+h s g g
+q40
+a b l g h 
+a b l g h 
+a b d c 
+a b f d c 
+a b d c 
+h f c 
+c f c 
+c f c 
+c f e l e p
+q42
+a b f d c 
+a b c 
+a b f d c 
+c f c 
+c f e l e p
+q43
+a b f d c 
+a b c 
+a b f d c 
+c f c 
+c f e l e p
+q45
+a b c 
+a b d c 
+a b d c 
+a b f d c 
+a b d c 
+a b f d c 
+c f c 
+c f c 
+c f c 
+c f c 
+c b f e l e p
+q46
+a b c 
+a b f d c 
+a b f d c 
+a b f d c 
+a b d c 
+a b l g h 
+a b d c 
+c f c 
+c f c 
+c f c 
+c f e l e l g h 
+h f c 
+c f p
+q47
+a b d c 
+a b c 
+a b d c 
+a b d c 
+a b d c 
+a b c 
+a b d c 
+a b d c 
+a b d c 
+a b c 
+a b d c 
+a b d c 
+c f c 
+c f c 
+c f e l e l g r b r b f l g h 
+c f c 
+c f c 
+c f e l e l g r f l g h 
+c f c 
+c f c 
+c f e l e l g r f l g h 
+h f h 
+h f p
+q48
+a b c 
+a b d c 
+a b d c 
+a b f d c 
+a b f d c 
+c f c 
+c f c 
+c f c 
+c f e m e r
+q49
+a b f l g h 
+a b l g h 
+a b f d c 
+a b f l g h 
+a b l g h 
+a b f d c 
+a b f l g h 
+a b l g h 
+a b f d c 
+h f c 
+c f e l e m g r g r b f j e l e p
+q50
+a b l g h 
+a b l g h 
+a b d c 
+a b d c 
+a b f d c 
+h f c 
+c f c 
+c f c 
+c f e l e p
+q51
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+c f e l e l g r f l g h 
+c f e l e l g r f l g h 
+h f l g r b p
+q52
+a b f d c 
+a b c 
+a b f d c 
+c f c 
+c f e l e p
+q53
+a b f d c 
+a b c 
+a b f d c 
+a b d c 
+c f c 
+c f c 
+c f e l e l g r b f p
+q54
+a b f j 
+a b f j 
+a b f d c 
+a b f d c 
+a b d c 
+a b l g h 
+a b d c 
+a b d c 
+a b f e l e r i b f d c 
+a b f e l e r i b f d c 
+a b f d c 
+j c 
+c f c 
+c f c 
+c f e l e l g h 
+h f c 
+c f c 
+c f c 
+c f e e e l e p
+q55
+a b f d c 
+a b c 
+a b f d c 
+c f c 
+c f e l e p
+q56
+a b c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+c f c 
+c f c 
+c d c 
+c f c 
+c f c 
+c d c 
+c f c 
+c f c 
+c d c 
+c f e l e j e l e p
+q57
+a b d c 
+a b c 
+a b d c 
+a b d c 
+a b d c 
+a b c 
+a b d c 
+a b d c 
+a b d c 
+a b c 
+a b d c 
+a b d c 
+c f c 
+c f c 
+c f e l e l g r b r b f l g h 
+c f c 
+c f c 
+c f e l e l g r f l g h 
+c f c 
+c f c 
+c f e l e l g r f l g h 
+h f h 
+h f p
+q58
+a b c 
+a b d c 
+a b c 
+a b f r i b f d c 
+a b f d c 
+a b c 
+a b d c 
+a b c 
+a b f r i b f d c 
+a b f d c 
+a b c 
+a b d c 
+a b c 
+a b f r i b f d c 
+a b f d c 
+c f c 
+c f d c 
+c f c 
+c f d c 
+c f c 
+c f d c 
+c f e l e b g h 
+c f e l e b g h 
+c f e l e b g h 
+h f h 
+h f p
+q59
+a b c 
+a b d c 
+a b d c 
+a b f d c 
+a b c 
+a b d c 
+a b d c 
+a b f d c 
+c f e l e c 
+c f c 
+c f l g h 
+c f e l e c 
+c f c 
+c f l g h 
+h f p
+q60
+a b c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+c f c 
+c f c 
+c d c 
+c f c 
+c f c 
+c d c 
+c f c 
+c f c 
+c d c 
+c f e l e j e l e p
+q61
+a b c 
+a b f d c 
+a b f d c 
+a b f d c 
+a b d c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+a b d c 
+a b f d c 
+a b f d c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f e m e r f f
+q62
+a b c 
+a b d c 
+a b d c 
+a b d c 
+a b f d c 
+c f c 
+c f c 
+c f c 
+c f e l e p
+q63
+a b f d c 
+a b c 
+a b f d c 
+a b d c 
+c f c 
+c f c 
+c f e l e l g r b f p
+q64
+a b l g h 
+a b l g h 
+a b l g h 
+a b l g h 
+a b d c 
+a b d c 
+a b l g h 
+a b d c 
+a b d c 
+a b d c 
+a b d c 
+a b d c 
+a b d c 
+a b d c 
+a b d c 
+a b d c 
+a b d c 
+a b d c 
+a b f d c 
+a b l g h 
+a b l g h 
+a b l g h 
+a b l g h 
+a b d c 
+a b d c 
+a b l g h 
+a b d c 
+a b d c 
+a b d c 
+a b d c 
+a b d c 
+a b d c 
+a b d c 
+a b d c 
+a b d c 
+a b d c 
+a b d c 
+a b f d c 
+h f l g h 
+h f e l e b f g h 
+h f l g h 
+h f e l e b f g h 
+h f c 
+c f c 
+c f l g h 
+h f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f e l e l g h 
+h f c 
+c f c 
+c f l g h 
+h f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f e l e l g h 
+h f s g g
+q65
+a b d c 
+a b c 
+a b f d c 
+a b d c 
+a b c 
+a b f d c 
+c f e l e b c 
+c f e l e e l e b g h 
+c f c 
+c f l g h 
+h f p
+q66
+a b c 
+a b d c 
+a b d c 
+a b f d c 
+a b f d c 
+a b c 
+a b d c 
+a b d c 
+a b f d c 
+a b f d c 
+c f c 
+c f c 
+c f c 
+c f e l e j e l e p
+q67
+a b c 
+a b f d c 
+a b d c 
+a b d c 
+c f c 
+c f c 
+c f k e l e l g r b p
+q68
+a b c 
+a b f d c 
+a b f d c 
+a b f d c 
+a b d c 
+a b l g h 
+a b d c 
+c f c 
+c f c 
+c f c 
+c f e l e l g h 
+h f c 
+c f p
+q69
+a b l g h 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+a b d c 
+c f l g h 
+c f l g h 
+c f l g h 
+h h 
+h h 
+h f c 
+c f c 
+c f e l e p
+q70
+a b c 
+a b f d c 
+a b l g h 
+a b c 
+a b d c 
+a b f d c 
+c f c 
+c f c 
+c f e l e g r b f h 
+h d c 
+c f k e l e l g r f p
+q71
+a b f d c 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+c f j c 
+c f j c 
+c f j c 
+c f c 
+c f e l e s g g
+q72
+a b l g h 
+a b l g h 
+a b d c 
+a b d c 
+a b f d c 
+a b f d c 
+a b f d c 
+a b d c 
+a b d c 
+a b d c 
+a b l g h 
+h f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f l g h 
+h f e l e p
+q73
+a b c 
+a b f d c 
+a b f d c 
+a b f d c 
+a b l g h 
+c f c 
+c f c 
+c f e l e b l g h 
+h f s g g
+q74
+a b l g h 
+a b l g h 
+a b d c 
+a b l g h 
+a b l g h 
+a b d c 
+a b l g h 
+a b l g h 
+a b d c 
+a b l g h 
+a b l g h 
+a b d c 
+h f c 
+c f e l e b l g h 
+h f c 
+c f e l e l g h 
+h f c 
+c f e l e b l g h 
+h f c 
+c f e l e l g h 
+h h 
+h f h 
+h f p
+q75
+a b c 
+a b f d c 
+a b d c 
+a b l g h 
+a b c 
+a b f d c 
+a b d c 
+a b l g h 
+a b c 
+a b f d c 
+a b d c 
+a b l g h 
+a b c 
+a b f d c 
+a b d c 
+a b l g h 
+a b c 
+a b f d c 
+a b d c 
+a b l g h 
+a b c 
+a b f d c 
+a b d c 
+a b l g h 
+c f c 
+c f l g h 
+h f j e l e e l e l g h 
+c f c 
+c f l g h 
+h f j e l e e l e l g h 
+c f c 
+c f l g h 
+h f j e l e e l e l g h 
+c f c 
+c f l g h 
+h f j e l e e l e l g h 
+c f c 
+c f l g h 
+h f j e l e e l e l g h 
+c f c 
+c f l g h 
+h f j e l e e l e l g h 
+h f p
+q76
+a b c 
+a b d c 
+a b d c 
+a b c 
+a b d c 
+a b d c 
+a b c 
+a b d c 
+a b d c 
+c f c 
+c f j e l e p
+q77
+a b c 
+a b f d c 
+a b d c 
+a b c 
+a b f d c 
+a b d c 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b d c 
+a b c 
+a b f d c 
+a b d c 
+c f c 
+c f e l e g h 
+c f c 
+c f e l e g h 
+c f e l e r f j k e l e p
+q78
+a b l g h 
+a b l g h 
+a b d c 
+a b l g h 
+a b l g h 
+a b d c 
+a b l g h 
+a b l g h 
+a b d c 
+h b f c 
+c f e l e g h 
+h b f c 
+c f e l e g h 
+h b f c 
+c f e l e g h 
+h f h 
+h b f p
+q79
+a b c 
+a b f d c 
+a b f d c 
+a b f d c 
+a b l g h 
+c f c 
+c f c 
+c f e l e l g h 
+h f p
+q80
+a b l g h 
+a b l g h 
+a b f d c 
+a b d c 
+a b f d c 
+a b f d c 
+a b l g h 
+a b l g h 
+a b f d c 
+a b d c 
+a b f d c 
+a b f d c 
+a b l g h 
+a b l g h 
+a b f d c 
+a b d c 
+a b f d c 
+a b f d c 
+h f c 
+c f c 
+c f c 
+c f c 
+c f e l e j k e l e p
+q81
+a b c 
+a b f d c 
+a b d c 
+a b c 
+a b f d c 
+a b d c 
+a b l g h 
+a b l g h 
+c f c 
+c f e l e b l g h 
+c f c 
+c f e l e e l e b g h 
+h f l g h 
+h f l g h 
+h f p
+q82
+a b f d c 
+a b f c 
+a b f d c 
+a b l g h 
+c f c 
+c f l g h 
+h f e l e p
+q83
+a b c 
+a b d c 
+a b c 
+a c 
+a b f d c 
+a b c 
+a b d c 
+a b c 
+a c 
+a b f d c 
+a b c 
+a b d c 
+a b c 
+a c 
+a b f d c 
+c f c 
+c f d c 
+c f c 
+c f d c 
+c f c 
+c f d c 
+c f d c 
+c f d c 
+c f d c 
+c f e l e g h 
+c f e l e g h 
+c f e l e g h 
+h f h 
+h f p
+q84
+a b c 
+a b f d c 
+a b d c 
+a b d c 
+a b f d c 
+a b l g h 
+c f c 
+c f c 
+c f c 
+c f l g h 
+h f p
+q85
+a b l g h 
+a b l g h 
+a b d c 
+a b d c 
+a b d c 
+a b f d c 
+a b f d c 
+a b d c 
+h f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f c 
+c f e l e p
+q86
+a b c 
+a b f d c 
+a b d c 
+c f c 
+c f k e l e l g r f p
+q87
+a b c 
+a b f d c 
+a b l g h 
+a b c 
+a b f d c 
+a b l g h 
+a b c 
+a b f d c 
+a b l g h 
+c f l g h 
+h f e l e l g h 
+c f l g h 
+h f e l e l g h 
+c f l g h 
+h f e l e l g h 
+h h 
+h f e m e r
+q88
+a b c 
+a b f d c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+a b f d c 
+c f c 
+c f c 
+c f e m e r r r r r r r r
+q89
+a b d c 
+a b c 
+a b f d c 
+a b d c 
+c f c 
+c f c 
+c f e l e l g r b f p
+q90
+a b c 
+a b f d c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+a b f d c 
+c f c 
+c f c 
+c f e m e r f f
+q91
+a b d c 
+a b c 
+a b f d c 
+a b l g h 
+a b f d c 
+a b d c 
+a b f d c 
+c f c 
+c f l g h 
+h f c 
+c f c 
+c f c 
+c f e l e s g g
+q92
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+c f l g h 
+c f e l e b g h 
+h f c 
+c f e m e r
+q93
+a l g h 
+a b l g h 
+a b f d c 
+h f c 
+c f e l e p
+q94
+a b l g h 
+a l g h 
+a l g h 
+a b f d c 
+a b f d c 
+a b f d c 
+h f h 
+h c 
+c f c 
+c f c 
+c f e e e m e r
+q95
+a b l g h 
+a b l g h 
+a b l g h 
+a b l g h 
+a b l g h 
+a b l g h 
+a b f d c 
+a b f d c 
+a b f d c 
+h f h 
+h f h 
+h h 
+h f h 
+h c 
+c f c 
+c f c 
+c f e e e m e r
+q96
+a b c 
+a b f d c 
+a b f d c 
+a b f d c 
+c f c 
+c f c 
+c f e m e r
+q97
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+c f e l e g h 
+c f e l e g h 
+h f e m e r
+q98
+a b c 
+a b d c 
+a b f d c 
+c f c 
+c f e l e l g r f s g f f
+q99
+a b c 
+a b d c 
+a b d c 
+a b d c 
+a b f d c 
+c f c 
+c f c 
+c f c 
+c f e l e p
+q1
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+a b l g h 
+c f e l e b l g h 
+c f e l e e l e b g h 
+h f c 
+c f l g h 
+h f p
+q2
+a b f j 
+a b f j 
+a b d c 
+a b f d c 
+a b f j 
+a b f j 
+a b d c 
+a b f d c 
+j c 
+c f e l e c 
+c f g h 
+j c 
+c f e l e c 
+c f l g h 
+h f s g g
+q3
+a b f d c 
+a b c 
+a b f d c 
+c f c 
+c f e l e p
+q4
+a b l g h 
+a b l g h 
+a b d c 
+a b l g h 
+a b l g h 
+a b d c 
+a b l g h 
+a b l g h 
+a b d c 
+a b l g h 
+a b l g h 
+a b d c 
+a b l g h 
+a b l g h 
+a b d c 
+a b l g h 
+a b l g h 
+a b d c 
+h f c 
+c f e l e b l g h 
+h f c 
+c f e l e l g h 
+h f c 
+c f e l e b l g h 
+h f c 
+c f e l e l g h 
+h f c 
+c f e l e b l g h 
+h f c 
+c f e l e l g h 
+h h 
+h f h 
+h f h 
+h f h 
+h f p
+q45
+a b c 
+a b d c 
+a b d c 
+a b f d c 
+a b d c 
+a b f d c 
+c f c 
+c f c 
+c f c 
+c f c 
+c b f e l e p
+q46
+a b c 
+a b f d c 
+a b f d c 
+a b f d c 
+a b d c 
+a b l g h 
+a b d c 
+c f c 
+c f c 
+c f c 
+c f e l e l g h 
+h f c 
+c f p
+q47
+a b d c 
+a b c 
+a b d c 
+a b d c 
+a b d c 
+a b c 
+a b d c 
+a b d c 
+a b d c 
+a b c 
+a b d c 
+a b d c 
+c f c 
+c f c 
+c f e l e l g r b r b f l g h 
+c f c 
+c f c 
+c f e l e l g r f l g h 
+c f c 
+c f c 
+c f e l e l g r f l g h 
+h f h 
+h f p
+q48
+a b c 
+a b d c 
+a b d c 
+a b f d c 
+a b f d c 
+c f c 
+c f c 
+c f c 
+c f e m e r
+q49
+a b f l g h 
+a b l g h 
+a b f d c 
+a b f l g h 
+a b l g h 
+a b f d c 
+a b f l g h 
+a b l g h 
+a b f d c 
+h f c 
+c f e l e m g r g r b f j e l e p
+q50
+a b l g h 
+a b l g h 
+a b d c 
+a b d c 
+a b f d c 
+h f c 
+c f c 
+c f c 
+c f e l e p
+q51
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+c f e l e l g r f l g h 
+c f e l e l g r f l g h 
+h f l g r b p
+q52
+a b f d c 
+a b c 
+a b f d c 
+c f c 
+c f e l e p
+q53
+a b f d c 
+a b c 
+a b f d c 
+a b d c 
+c f c 
+c f c 
+c f e l e l g r b f p
+q55
+a b f d c 
+a b c 
+a b f d c 
+c f c 
+c f e l e p
+q56
+a b c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+c f c 
+c f c 
+c d c 
+c f c 
+c f c 
+c d c 
+c f c 
+c f c 
+c d c 
+c f e l e j e l e p
+q57
+a b d c 
+a b c 
+a b d c 
+a b d c 
+a b d c 
+a b c 
+a b d c 
+a b d c 
+a b d c 
+a b c 
+a b d c 
+a b d c 
+c f c 
+c f c 
+c f e l e l g r b r b f l g h 
+c f c 
+c f c 
+c f e l e l g r f l g h 
+c f c 
+c f c 
+c f e l e l g r f l g h 
+h f h 
+h f p
+q59
+a b c 
+a b d c 
+a b d c 
+a b f d c 
+a b c 
+a b d c 
+a b d c 
+a b f d c 
+c f e l e c 
+c f c 
+c f l g h 
+c f e l e c 
+c f c 
+c f l g h 
+h f p
+q60
+a b c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+a b c 
+a b f d c 
+a b f d c 
+a b c 
+a b f d c 
+c f c 
+c f c 
+c d c 
+c f c 
+c f c 
+c d c 
+c f c 
+c f c 
+c d c 
+c f e l e j e l e p

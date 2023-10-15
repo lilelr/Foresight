@@ -1,0 +1,683 @@
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Filter Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate HashAggregate Exchange hashpartitioning HashAggregate Filter Sort SortMergeJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project TakeOrderedAndProject
+FileScan Filter Project Union 
+FileScan Filter Project Union 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project Union 
+FileScan Filter Project Union 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+Union BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate BroadcastHashJoin 
+BroadcastHashJoin Project Sort SortMergeJoin 
+Union BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate BroadcastHashJoin 
+BroadcastHashJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project Exchange Sort Sort
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Filter Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Filter Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Filter Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin SortMergeJoin 
+SortMergeJoin Project SortMergeJoin 
+SortMergeJoin Project SortMergeJoin 
+SortMergeJoin Project SortMergeJoin 
+SortMergeJoin Project TakeOrderedAndProject
+FileScan Filter Project Union 
+FileScan Filter Project Union 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project Union 
+FileScan Filter Project Union 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project Union 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+Union BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Union Expand HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Project HashAggregate Exchange hashpartitioning HashAggregate error Subquery Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter HashAggregate Exchange hashpartitioning HashAggregate Filter BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project HashAggregate Exchange hashpartitioning HashAggregate Filter TakeOrderedAndProject
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Filter Project Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project HashAggregate Exchange hashpartitioning HashAggregate BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin SortMergeJoin 
+SortMergeJoin SortMergeJoin 
+SortMergeJoin Filter Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Filter Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Filter Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin SortMergeJoin 
+SortMergeJoin Project SortMergeJoin 
+SortMergeJoin Project TakeOrderedAndProject
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Exchange hashpartitioning Sort error Project TakeOrderedAndProject
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange SinglePartition HashAggregate Error
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project Union HashAggregate Exchange SinglePartition HashAggregate error Subquery Filter Project Union Expand HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+SortMergeJoin Project SortMergeJoin 
+SortMergeJoin BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate HashAggregate HashAggregate Exchange SinglePartition HashAggregate Error
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+SortMergeJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project Expand HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Exchange hashpartitioning Sort error Project TakeOrderedAndProject
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Filter TakeOrderedAndProject
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project Expand HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Filter Project Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate HashAggregate Exchange SinglePartition HashAggregate error Subquery Filter Project Sort SortMergeJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Filter Project Sort SortMergeJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Filter Project Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate HashAggregate Exchange SinglePartition HashAggregate error Subquery Filter Project Sort SortMergeJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Filter Project Sort SortMergeJoin 
+SortMergeJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project Union HashAggregate Exchange SinglePartition HashAggregate Error
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate HashAggregate Exchange SinglePartition HashAggregate error Subquery Filter Error
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+SortMergeJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project Expand HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+SortMergeJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Filter Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate HashAggregate Exchange hashpartitioning HashAggregate Filter Sort SortMergeJoin 
+SortMergeJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project TakeOrderedAndProject
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin SortMergeJoin 
+SortMergeJoin Project SortMergeJoin 
+SortMergeJoin SortMergeJoin 
+SortMergeJoin Project SortMergeJoin 
+SortMergeJoin Project Exchange Sort Sort
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Filter Sort SortMergeJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange SinglePartition HashAggregate Error
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Union HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Filter Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project Exchange Sort Sort
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin SortMergeJoin 
+SortMergeJoin SortMergeJoin 
+SortMergeJoin Filter Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project Expand HashAggregate Exchange hashpartitioning HashAggregate Exchange hashpartitioning Sort error Project TakeOrderedAndProject
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project HashAggregate Exchange hashpartitioning HashAggregate Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project HashAggregate Exchange hashpartitioning HashAggregate Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project HashAggregate Exchange hashpartitioning HashAggregate Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin SortMergeJoin 
+SortMergeJoin Project HashAggregate Exchange SinglePartition HashAggregate Error
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Filter Project Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Filter Project Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Exchange Sort Sort
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Filter Project HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project TakeOrderedAndProject
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Exchange hashpartitioning Sort error Filter error Filter Project Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Exchange hashpartitioning Sort error Project Exchange hashpartitioning Sort SortMergeJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Exchange hashpartitioning Sort error Project Exchange hashpartitioning Sort SortMergeJoin 
+SortMergeJoin Project SortMergeJoin 
+SortMergeJoin Project TakeOrderedAndProject
+FileScan Filter BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange SinglePartition HashAggregate Error
+FileScan Filter Project Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate Exchange SinglePartition Sort error Sort error Filter Project Union HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter Exchange hashpartitioning Sort SortMergeJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter BroadcastExchange BroadcastHashJoin 
+FileScan Filter Project BroadcastExchange BroadcastHashJoin 
+SortMergeJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project BroadcastHashJoin 
+BroadcastHashJoin Project HashAggregate Exchange hashpartitioning HashAggregate TakeOrderedAndProject
