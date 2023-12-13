@@ -1,8 +1,8 @@
 ##  Foresight: A Deadline Oriented Resource Optimizer for SparkSQL Applications
 
-Foresight is a deadline-oriented resource optimizer for SparkSQL applications.  It leverages the stage-level information from the DAGs of a small number of SparkSQL queries to build a performance model (see the script below **foresight_stage_level_prediction_varying_resources.py** ) to accurately predict the execution time of unseen queries. As such, a provider can correctly answer whether the deadline of an unseen SparkSQL application can be met.
+Foresight is a deadline-oriented resource optimizer for SparkSQL applications.  It leverages the stage-level information from the DAGs of a small number of SparkSQL queries to build a performance model (see the script below **core/foresight_stage_level_prediction_varying_resources.py** ) to accurately predict the execution time of unseen queries. As such, a provider can correctly answer whether the deadline of an unseen SparkSQL application can be met.
 
-Moreover, Foresight employs a critical-path based approach to optimize the CPU resources and a stage input/output data size based method to optimize the memory resources of a SparkSQL application (see the script below **foresight_stage_level_prediction_varying_resources.py** and **analytical_memory_executor.py**). 
+Moreover, Foresight employs a critical-path based approach to optimize the CPU resources and a stage input/output data size based method to optimize the memory resources of a SparkSQL application (see the scripts below **core/foresight_stage_level_prediction_varying_resources.py** and **core/analytical_memory_executor.py**). 
 
 ##  stage-level performance model for a query
 ### foresight_stage_level_prediction_varying_resources.py
