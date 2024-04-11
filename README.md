@@ -54,7 +54,7 @@ The predicted runtime by Foresight is 112 seconds, which is less than the deadli
 Otherwise, Foresight will report a deadline violation as follows. 
 
 ```python
-"a deadline violation"
+"A deadline violation"
 ```
 
 
